@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(41, 41, 41);
+    background-image: url(200.gif);
+}
+header{
+    position: sticky;
+    background-color: rgb(73, 73, 73);
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header>a{
+    color: white;
+    font-size: 25px;
+    font-family: 'PT Serif', serif;
+    padding: 2px;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+#dabbi{
+    height: 200px;
+}
+#hme{
+    margin: 100px auto 0px;
+    padding: 16px;
+    width: 80%;
+    height: 60vh;
+    background-color: rgb(73, 73, 73);
+    box-shadow: rgba(255, 255, 255, 0.627) 0px 6px 24px 0px, rgba(255, 252, 252, 0.892) 0px 0px 0px 1px;
+}
+#outer{
+    background-color: rgb(41, 41, 41) ;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.dabbi{
+    height: 50%;
+}
+#somepic16{
+    width: 120px;
+}
+#somepic15{
+    width: 120px;
+}
+#somepic17{
+    width: 150px;
+}
+footer{
+    background-color: rgb(37, 134, 231);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 2px;
+    color: white;
+}
+.about{
+    text-align: center;
+    margin: 100px;
+    background-color: white;
+    font-size: 30px;
+}
+h1{
+    margin: 40px auto;
+}
